@@ -1,0 +1,64 @@
+<!--index.wxml-->
+
+<image class='avator ' src="/pages/images/logo.jpg" mode='aspectFill'></image>
+<view class="search">
+  <input placeholder="请输入猫咪名称" bindconfirm="bindconfirmT" placeholder-class="placeholder" />
+</view>
+
+<text> \n\n\n </text>
+
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique"
+    bindtap="navbarTap">{{item}}</text>
+</view>
+
+<!-- 在校 -->
+<view hidden="{{currentTab!==0}}">
+  <block wx:for="{{present_catlist}}" wx:for-item="item" wx:for-index="key">
+    <view bindtap="choosecat" data-key="{{key}}" class="catback">
+          <image lazy-load="true" src="{{item.image[0]}}" mode="scaleToFill" class="cathead" />
+          <view class="catback_des">
+            <text class="catback_name">{{item.name}}</text>
+            <text class="catback_feature">{{item.feature}}</text>
+          </view>
+    </view>
+  </block>
+</view>
+
+<!-- 毕业 -->
+<view hidden="{{currentTab!==1}}">
+  <block wx:for="{{fostered_catlist}}" wx:for-item="item" wx:for-index="key">
+    <view bindtap="choosecat" data-key="{{key}}" class="catback">
+          <image lazy-load="true" src="{{item.image[0]}}" mode="scaleToFill" class="cathead" />
+          <view class="catback_des">
+            <text class="catback_name">{{item.name}}</text>
+            <text class="catback_feature">{{item.feature}}</text>
+          </view>
+    </view>
+  </block>
+</view>
+<!-- 休学 -->
+<view hidden="{{currentTab!==2}}">
+  <block wx:for="{{unknown_catlist}}" wx:for-item="item" wx:for-index="key">
+    <view bindtap="choosecat" data-key="{{key}}" class="catback">
+          <image lazy-load="true" src="{{item.image[0]}}" mode="scaleToFill" class="cathead" />
+          <view class="catback_des">
+            <text class="catback_name">{{item.name}}</text>
+            <text class="catback_feature">{{item.feature}}</text>
+          </view>
+    </view>
+  </block>
+</view>
+
+<!-- 喵星 -->
+<view hidden="{{currentTab!==3}}">
+  <block wx:for="{{dead_catlist}}" wx:for-item="item" wx:for-index="key">
+    <view bindtap="choosecat" data-key="{{key}}" class="catback">
+          <image lazy-load="true" src="{{item.image[0]}}" mode="scaleToFill" class="cathead" />
+          <view class="catback_des">
+            <text class="catback_name">{{item.name}}</text>
+            <text class="catback_feature">{{item.feature}}</text>
+          </view>
+    </view>
+  </block>
+</view>

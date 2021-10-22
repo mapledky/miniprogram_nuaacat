@@ -1,0 +1,6 @@
+.about_logo{
+  margin-top: 10rpx;
+  width: 50%;
+  height: 50%;
+  border-radius: 25rpx;
+}

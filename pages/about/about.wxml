@@ -1,0 +1,26 @@
+<!--index.wxml-->
+
+<view class= "title">南航猫咪图鉴V1.0</view>
+<navigator url="/pages/about/web/web">
+<view style="display:flex; justify-content:center; align-items:center;">
+  <image mode="widthFix" src="/pages/images/logo.jpg" class="about_logo">
+  </image>
+</view>
+</navigator>
+
+<text> \n </text>
+
+<!-- 最好能保留这一行 -->
+<view class="body">　　此小程序基于北大猫协提供的源代码，结合本校的具体情况进行开发，南航猫咪协会希望通过该小程序让大家熟悉校园流浪猫，爱护流浪猫。小程序处于不间断更新中~</view>
+
+<text> \n </text>
+
+<view class="staff">2021-10-22</view>
+<view class="staff">
+小程序开发：
+</view>
+<view class="staff">
+后台开发：
+</view>
+<text> \n </text>
+

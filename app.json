@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/logs/logs",
+    "pages/science/science",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "南航猫咪图鉴",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#FFC0CB",
+    "color": "#888888",
+    "list": [
+      {
+        "text": "图鉴",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "百科",
+        "pagePath": "pages/science/science"
+      },
+      {
+        "text": "关于",
+        "pagePath": "pages/about/about"
+      }
+    ]
+  }
+}
