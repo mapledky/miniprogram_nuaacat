@@ -1,2 +1,18 @@
 <!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
+<view class="detail_main">
+  <swiper class="detail_swipeback" indicator-dots="true">
+    <swiper-item wx:for="{{catinfo.image}}" wx:for-item="item">
+      <image class="detail_avator" bindtap="lookimage" data-state="{{item}}" mode="scaleToFill" src="{{item}}"></image>
+    </swiper-item>
+  </swiper>
+<view class="detail_line"/>
+  <text class="detail_name">大名：{{catinfo.name}}</text>
+  <text class="detail_text">年龄：{{catinfo.age}}</text>
+  <text class="detail_text">特征：{{catinfo.feature}}</text>
+  <text class="detail_text">关系：{{catinfo.relation}}</text>
+  <text class="detail_text">出没点：{{catinfo.location}}</text>
+  <text class="detail_text">绝育情况:{{catinfo.sterilization}}</text>
+  <text class="detail_text">亲人吗：{{catinfo.meek}}</text>
+  <text class="detail_text">健康状况：{{catinfo.health}}</text>
+  <text class="detail_text">简介：{{catinfo.description}}</text>
+</view>

@@ -62,7 +62,9 @@ Page({
               console.log(res.data)
               if (res.data.openid != null) {
                 app.globalData.open_id = res.data.openid
-                that.refreshPageData()
+
+                //刷新页面数据
+                that.getLateastNews()
               } else {
                 wx.showToast({
                   title: '数据获取错误，请重新登录',
@@ -92,9 +94,12 @@ Page({
     }
   },
   choosecat: function (e) {
-    var index = e.currentTarget.dataset.key
-    
+    var name = e.currentTarget.dataset.key
+    wx.navigateTo({
+      url: '/pages/detail/detail?name='+name
+    })
   },
+
 
   onPullDownRefresh: function () {
     this.refreshPageData()
@@ -102,6 +107,45 @@ Page({
 
   onReachBottom: function () {
     this.getmore()
+  },
+
+
+  //获取最新的信息
+  getLateastNews: function () {
+    if (app.globalData.open_id == null) {
+      return;
+    }
+    var that = this
+
+    wx.request({
+      url: 'https://site.maple.today/SchoolCat/SchoolCat',
+      method: "POST",
+      data: {
+        requestCode: "004",
+        open_id: app.globalData.open_id,
+      },
+      header: {
+        'content-type': 'application/x-www-form-urlencoded'
+      },
+      success: function (res) {
+        console.log(res.data)
+        if (res.data.result == 0) {} else {
+          wx.showModal({
+            title:res.data.name,
+            content:res.data.content,
+            cancelColor: 'cancelColor',
+          })
+        }
+        setTimeout(function () {
+          //要延时执行的代码
+          that.refreshPageData()
+        }, 200) //延迟时间 这里是0.2秒
+      },
+      fail: function (err) {
+        console.log("失败" + err)
+      },
+      complete: function (e) {}
+    })
   },
   //刷新当前页面猫咪数据
   refreshPageData: function () {
@@ -310,10 +354,9 @@ Page({
 
   // 搜索栏输入名字后页面跳转
   bindconfirmT: function (e) {
-    console.log("e.detail.value");
     if (e.detail.value) {
       wx.navigateTo({
-        url: '/pages/cats/' + e.detail.value + '/' + e.detail.value,
+        url: '/pages/detail/detail?name='+e.detail.value,
       })
     }
   },

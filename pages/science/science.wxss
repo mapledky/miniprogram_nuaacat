@@ -28,3 +28,9 @@ page{
   height: 4rpx;
   background: #94070a;
 }
+
+.detail_image {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10rpx;
+}

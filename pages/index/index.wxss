@@ -37,7 +37,7 @@ page{
 
 .catback{
   margin-top: 20rpx;
-  background-color: #ffc0cb9c;
+  background-color: #f0f0f0;
   margin-left: 5%;
   width: 90%;
   height: 190rpx;

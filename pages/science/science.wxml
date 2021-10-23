@@ -4,39 +4,201 @@
 </view>
 
 <view hidden="{{currentTab!==0}}">
-
-  <view class="body">若您在校内偶遇流浪猫，<text class="bodybold">切记</text>人类的食物<text class="bodybold">不要</text>喂给流浪猫！
+  <view class="body">　　猫咪和我们人类不一样，不需要一天三顿的喂食。每天早晚各喂一次就好了，要注意晚上喂得饭量要比早上多。这样不会浪费还能让猫咪吃饱，更对猫咪的肠胃有好处。
   </view>
+  <image class="detail_image" lazy-load="true"
+    src="https://mapleclouddata.oss-cn-beijing.aliyuncs.com/otherinfo/science_1.jpg"></image>
   <view class="body">
-    🚫<text class="bodybold">巧克力、葡萄制品、大葱、洋葱</text>等食品对猫<text class="bodybold">有毒</text>，可能会引起急性肾衰竭，切<text
-      class="bodybold">不可以</text>喂食！
+    　　在给猫咪喂食的时候要注意猫盆的干净整洁，而且猫咪喂食的地方一定要安静，不要随便变换喂食的地方。猫咪的舌头非常敏感，食物不要太凉或者太热，每天还要准备足够的清水让猫咪饮用。作为铲屎官的我们还要注意观察猫咪的食欲，猫咪如果食欲不振，有可能是肠胃消化功能紊乱，就需要我们调理猫咪的肠胃。
   </view>
-  <view class="body">
-    🚫<text class="bodybold">火腿肠</text>和<text class="bodybold">牛奶</text>也并<text
-      class="bodybold">不适合</text>猫咪，会引起肠胃反应，造成腹泻等状况。
+  <view class="body">　　猫咪在2-6个月的时候需要大量的营养和热能，所以，就必须给猫咪喂食经过特殊配方处理的优质幼猫猫粮。这类优质幼猫粮的原料以肉类为主，非常容易消化，含有大量营养素，能满足幼猫的特殊营养需求。
   </view>
-  <view class="body">
-    🚫酸性的各类水果、香辛料制的肉类、乌贼等海产也<text class="bodybold">均不适合</text>猫咪食用。
+  <image class="detail_image" lazy-load="true"
+    src="https://mapleclouddata.oss-cn-beijing.aliyuncs.com/otherinfo/science_2.jpg"></image>
+  <view class="body">　　猫咪在6-12个月的时候生长速度开始变慢，活动量也会稍微减低。为了他们因为生长速度变慢所产生不同的营养需求，我们可以在干猫粮上添加一点营养丰富的猫罐头。
   </view>
-  <view class="body">
-    猫常见的较合适的食物有猫粮、猫罐头、以及其它一些猫咪零食。
+  <image class="detail_image" lazy-load="true"
+    src="https://mapleclouddata.oss-cn-beijing.aliyuncs.com/otherinfo/science_3.jpg"></image>
+  <view class="body">　　在猫咪一岁的时候，不再需要大量热能和大量的营养素，这个时候就要换成专门为成年猫咪调配的成年猫粮。要记住，在更换猫粮的时候应该在5-7日内逐渐掺换。
   </view>
-
-
 </view>
 
 <view hidden="{{currentTab!==1}}">
-
+  <view class="body">　　猫咪容易患的疾病有毛球病、肠胃炎、中耳炎等。这几种病大多都与平时的饲养管理有关。毛球病是因猫咪长期舔舐自己的皮毛造成，所以主人在猫咪7个月左右就可以定期给猫咪饲喂化毛膏来改变这种现象。中耳炎是因猫咪的耳道结构复杂造成的。肠胃炎在平时的饲养管理中，主人需要注意猫咪饮食，并且按时给猫咪接种疫苗和驱虫。
+  </view>
 </view>
 
 <view hidden="{{currentTab!==2}}">
+  <view class="body">接猫准备
+  </view>
+  <view class="body">1.做好保护工作
+  </view>
+  <view class="body">　　收好家里的刀具、易碎品，防止小猫受伤。
+  </view>
+  <view class="body">　　收好家中的巧克力、咖啡、各种药品、清洁剂、杀虫剂/樟脑丸等，防止小猫误食。
+  </view>
+  <view class="body">　　另外一些植物如百合花对小猫也是有毒性的哦。
+  </view>
+
+  <view class="body">2.到家后注意
+  </view>
+  <view class="body">　　给猫咪一个安静的环境,不着急逗玩，先让小猫熟悉环境。
+  </view>
+  <view class="body">　　把小猫带到饭盆和猫砂盆前让它熟悉吃饭和上厕所的位置。
+  </view>
+  <view class="body">　　如果小猫躲起来，不用主动去寻找或靠近猫咪。刚领养的小猫都是怕生，不仅环境陌生，主人也陌生，所以刚领养的话，不要逼迫小猫做什么。有的小猫怕生会躲在床底下或者猫窝不出来，这都是正常的，不用管它，也不要逼它出来，饿的话，它会自己出来吃的，过了两三天慢慢习惯了，就会出来找你了。
+  </view>
+  <image class="detail_image" lazy-load="true"
+    src="https://mapleclouddata.oss-cn-beijing.aliyuncs.com/otherinfo/science_4.jpg"></image>
+  <view class="body">3.饮食注意
+  </view>
+  <view class="body">　　换新粮要用7天换粮法。
+  </view>
+  <view class="body">　　不立即给罐头和奶粉，可以等1-2天后。
+  </view>
+  <view class="body">　　罐头和猫粮不要同时吃。
+  </view>
+  <view class="body">　　不要给猫咪喝自来水。
+  </view>
+
+  <view class="body">精品好物~
+  </view>
+  <view class="body">1.猫砂
+  </view>
+  <view class="body">　　猫咪用猫砂是为了掩盖自己粪便气味的本能.猫砂有凝结力好、吸水性强、净味力强、环保低尘的作用。可以方便猫咪挖刨、掩埋粪便，天然的材料可降解，还可以冲厕所，方便让铲屎官不再为垃圾分类而忧心。
+  </view>
+  <view class="body">　　给猫咪准备固定的猫碗，猫厕，猫砂，猫窝等给小猫一个家的感觉。小猫咪是爱干净的，会自己到猫厕所方便的，不懂的话，可以加以训练哦。
+  </view>
+  <view class="body">　　不要给猫咪喝自来水。
+  </view>
+
+    <view class="body">　　使用方法：将猫砂均匀倒在猫砂盆的3-5厘米厚，排便后将结团部分铲出猫砂盆，每次铲出结团猫砂后及时补充，建议每两周更换全新的猫砂。
+  </view>
+
+
+  <view class="body">2.羊奶粉
+  </view>
+  <view class="body">　　小猫肠胃通常都会比较娇弱，所以对于奶粉会比较挑剔，而羊奶粉是最接近于母乳的奶粉，比其他奶制品更易消化吸收，而且免疫球蛋白含量很高，可以增加免疫力。奶粉中含有卵黄抗体IGY、低聚糖、DHA、牛磺酸、卵磷脂等多种营养物质，可以帮助猫咪美毛护眼、预防感染、补充营养、守护肠道健康。
+  </view>
+  <view class="body">　　喂食方法：按照爱宠体重用量选择喂食量，怀孕、泌乳期可选择加倍。
+  </view>
+
+  <view class="body">3.钙片
+  </view>
+  <view class="body">　　钙是猫咪成长过程中不可缺少的营养物质，钙的多少直接影响着猫咪骨骼的发育和生长。钙片可以帮助猫咪补充营养、增强抵抗力、增强体质、巩固牙齿、防止骨质疏松、保护关节、保护肠胃等作用。不仅适口性佳，同时添加多种微量元素配方，帮助增强食欲、美毛爆毛、满足猫咪生长发育所需营养需求。
+  </view>
+  <view class="body">　　喂食方法：按照体重直接饲喂或者拌在食物中饲喂。 
+  </view>
+
+  <view class="body">4.鸡肉冻干
+  </view>
+  <view class="body">　　鸡肉冻干蛋白质丰富，富含丰富的氨基酸、蛋白质，有利于狗狗增肥发腮、保障毛发的质量，减少毛发分叉。且低温烘干，减少营养流失，保留鸡肉的原汁原味。不含多余的脂肪含量，适口性好，肠胃比较弱的宠物食用，高蛋白，容易消化。
+  </view>
+  <view class="body">　　喂食方法：开袋即食、可拌主粮喂食、当做零食奖励喂食、还可以泡水喂食。
+  </view>
+  <view class="body">5.宠物沐浴露
+  </view>
+  <view class="body">　　人的皮肤PH和猫的皮肤是完全不同的。用多了容易出现脱毛、皮肤敏感易感染等疾病。幼猫不要经常给它洗澡，着凉拉稀的话会很麻烦，如果一直养在家里的话，可以不用经常洗，如果毛有脏的话，用热毛巾稍微擦下，平时用刷子刷下保持干净就行了。成年长毛猫的话，可以一个月洗一次。洗澡的话建议两人帮忙洗，因为猫咪很怕水，会乱窜。
+  </view>
+  <image class="detail_image" lazy-load="true"
+    src="https://mapleclouddata.oss-cn-beijing.aliyuncs.com/otherinfo/science_5.jpg"></image>
+
+
+  <view class="body">6.剪指甲
+  </view>
+  <view class="body">　　幼猫差不多到5.6个月的时候要给它剪指甲，有一种专门给猫剪指甲的猫指甲刀的，不然猫指甲太尖了会抓伤主人滴，或者买那种猫抓板，给猫练指甲的，它自己会磨好。
+  </view>
+  <image class="detail_image" lazy-load="true"
+    src="https://mapleclouddata.oss-cn-beijing.aliyuncs.com/otherinfo/science_6.jpg"></image>
+  <view class="body">　　除了给猫剪指甲外还要注意给猫剪脚上的毛，脚印那里的毛哦，长长了走路会打滑。
+  </view>
+  <image class="detail_image" lazy-load="true"
+    src="https://mapleclouddata.oss-cn-beijing.aliyuncs.com/otherinfo/science_7.jpg"></image>
+    <view class="body">注意事项
+  </view>
+  <view class="body">　　如果家里有其他小猫，新的小猫接回家后隔离至少3天。
+  </view>
+  <view class="body">　　注意猫咪生活环境的温度和湿度，每天尽量晒1-2小时太阳。
+  </view>
+  <view class="body">　　不要经常带猫外出，陌生的环境会让猫咪紧张害怕,会造成机能体质下降。
+  </view>
+  <view class="body">　　春秋冬不要让猫咪睡地板，容易感冒着凉。
+  </view>
+  <view class="body">　　不可喝自来水，需要喝凉白开或矿泉水。
+  </view>
+  <view class="body">　　保持食物新鲜，过夜粮受潮要更换。
+  </view>
+  <view class="body">　　小猫4个月进入发育阶段,建议多补充营养。
+  </view>
+  <view class="body">　　领养的猫咪，公的到6月左右，母的8月左右要给它绝育。
+  </view>
+  <view class="body">　　领养猫的时候要注意是否打了疫苗，没打过的话一定要打，增强抵抗力，预防疾病。
+  </view>
+  <view class="body">　　最后一点就是有的人说被猫抓伤了一定要去打防狂犬的针，其实家养的猫咪是比较干净的，而且打过疫苗的猫咪一般身上不会携带什么病毒的，所以用肥皂洗一下伤口，再抹点碘酒就好了，如果伤口较大的建议去打下针最好。
+  </view>
+  <image class="detail_image" lazy-load="true"
+    src="https://mapleclouddata.oss-cn-beijing.aliyuncs.com/otherinfo/science_8.jpg"></image>
 </view>
 
-<view hidden="{{currentTab!==3}}">
-</view>
+  <view hidden="{{currentTab!==3}}">
+    <view class="body">绝育对于猫咪来说带来的好处还是有很多的。
+  </view>
+  <view class="body">一、延长寿命
+  </view>
+  <image class="detail_image" lazy-load="true"
+    src="https://mapleclouddata.oss-cn-beijing.aliyuncs.com/otherinfo/science_9.jpg"></image>
+  <view class="body">　　对于猫咪来说，如果没有给它们做绝育，那么在有一些事情上这些猫咪会消耗掉自己更多的精力，而这不仅仅只是体力上的付出，更多的是在透支自己的生命。而给猫咪做了绝育对于猫咪来说，它们的生命就少了很多的负担，那么在寿命上就会有一定的延长，这样它们就能更长久的陪伴铲屎官。
+  </view>
+  <view class="body">二、减少麻烦
+  </view>
+  <image class="detail_image" lazy-load="true"
+    src="https://mapleclouddata.oss-cn-beijing.aliyuncs.com/otherinfo/science_10.jpg"></image>
+  <view class="body">　　猫咪发情的时间里面实在是太麻烦了，对于铲屎官来说那些特殊情况里面，铲屎官用的要特殊照顾一下猫咪，那些时间里面，猫咪会特别的需要铲屎官照顾，而且它们在发情的时间里面叫唤的特别厉害，铲屎官实在是不堪其扰，如果给猫咪绝育了肯定能够解决掉这个尴尬时间里面的一些事情。
+  </view>
+  <view class="body">三、减少疾病
+  </view>
+  <image class="detail_image" lazy-load="true"
+    src="https://mapleclouddata.oss-cn-beijing.aliyuncs.com/otherinfo/science_11.jpg"></image>
+    <view class="body">　　给猫咪绝育其实就像是给铲屎官做阑尾手术是一个道理，只不过这样子的手术有一些特殊。猫咪绝育以后能够减少很多病症的出现，会让猫咪在生理上避免一些麻烦，减少它们的病痛，也能够间接的节约一定的费用，这对于猫咪来说的确是一件好事情，所以说给猫咪做绝育有的时候还能让它们更健康。
+  </view>
+  <view class="body">四、猫咪更加的黏人
+  </view>
+  <view class="body">　　做完绝育以后猫咪尤其是公猫咪会变得更加的喜欢铲屎官，时时刻刻都想要和铲屎官待在一起，这对于猫咪来说是一种改变，这样的改变能够在一定的程度上面让铲屎官和猫咪的感情更加的融洽，对于铲屎官来说是一个增进猫咪感情的绝好机会，会让猫咪对自己这个家有更多的感情。
+  </view>
+  <view class="body">　　其实给猫咪做绝育的确是一件不怎么人道的事情，但是对于猫咪来说可能并不怎么愿意。不过给猫咪绝育以后肯定能让它们有一个更好的身体这样的才能够更好的陪伴着铲屎官。所以说绝育不是并不是单纯的减少铲屎官的麻烦，更多的时候是为了猫咪自身去考虑的一些事情。
+  </view>
+  </view>
 
 
-<view hidden="{{currentTab!==4}}">
-
-
-</view>
+  <view hidden="{{currentTab!==4}}">
+    <view class="body">　　我们在靠近猫咪的时候，如果它发出舒服的咕噜声，这就意味着它很喜欢你，这时你就可以大胆的撸猫了。
+  </view>
+  <view class="body">　　幼猫在出生后，猫妈妈会经常舔小猫的身体，这样做会让小猫感到安心。所以，主人轻抚摸小猫，对于它们来说就跟自己母亲一样也能感到安心。撸猫技术好的话，分分钟就能把猫主子伺候的呼呼呼的睡倒在你的怀里呦。撸猫是和喵培养感情的重要方法之一。抚摸猫的身体还有一个好处，就是可以提早发现猫咪身体上的异常。
+  </view>
+  <image class="detail_image" lazy-load="true"
+    src="https://mapleclouddata.oss-cn-beijing.aliyuncs.com/otherinfo/science_12.jpg"></image>
+    <view class="body">　　但要注意，不是猫咪所有的部位都可以摸的。一开始，你要伸出手试探性的摸下猫咪的头和下巴，如果它不反抗，你可以去慢慢的摸下猫咪的背。这样会让它感到很舒适。切记不要上来就去摸猫咪的肚子，尾巴和大腿这些敏感部位，这有可能会导致它恼羞成怒。
+  </view>
+  <view class="body">　　很多铲屎官满心欢喜的买了一只猫，准备开始自己的撸猫生涯，发现自己的主子只可远观，不可近撸。其实，只要掌握好以下几点。猫咪就会任你撸了。
+  </view>
+  <image class="detail_image" lazy-load="true"
+    src="https://mapleclouddata.oss-cn-beijing.aliyuncs.com/otherinfo/science_13.jpg"></image>
+  <view class="body">　　第一:撸猫的时机选择很重要，要选择它吃饱了饭不在饿肚子的状态下，并且准备惬意的睡一觉的时候。
+  </view>
+  <view class="body">　　第二：要去抚摸它平时自己舔不到的地方。
+  </view>
+  <view class="body">　　第三：动作要轻，顺着他的毛发轻轻的摸，不要粗暴不要太用力，他会觉得自己受到威胁，会很不安。
+  </view>
+  <image class="detail_image" lazy-load="true"
+    src="https://mapleclouddata.oss-cn-beijing.aliyuncs.com/otherinfo/science_14.jpg"></image>
+  <view class="body">　　第四:撸猫的时间把握，这主要看猫的尾巴，如果猫的尾巴摆动剧烈，如果这时候再强行撸猫，很可能回头一口。要在它的尾巴尖开始轻轻摆动的时候，停下来，这样猫咪介于爽了和意犹未尽之间，他会对你的动作更加记忆深刻和迷恋，这样你下次撸猫的时候它就会满怀期待了。
+  </view>
+  <view class="body">正确的撸猫方式
+  </view>
+  <view class="body">　　先两边后下巴
+  </view>
+  <view class="body">　　下巴这边需多花点力道，因为这边最舒服了。
+  </view>
+  <view class="body">　　之后，后脑勺，一套完整的撸猫方式就完成了。
+  </view>
+  </view>
