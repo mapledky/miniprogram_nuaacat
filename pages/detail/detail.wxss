@@ -8,7 +8,7 @@
 
 .detail_swipeback {
   width: 90%;
-  height: 550rpx;
+  height: 650rpx;
   margin-left: 5%;
   margin-top: 5%;
 
@@ -30,7 +30,7 @@
   width: 80%;
   margin-top: 20rpx;
   color: black;
-  font-size: 45rpx;
+  font-size: 40rpx;
   font-weight: bold;
 }
 
@@ -39,12 +39,24 @@
   margin-top: 20rpx;
   height: 2rpx;
   margin-left: 5%;
-  background-color: #afafaf;
+  background-color: #bebebe;
 }
-.detail_text{
-  margin-top: 20rpx;
+.detail_text_pane{
   width: 80%;
   margin-left: 10%;
+  display: flex;
+  margin-top: 20rpx;
+  flex-direction: row;
+  align-items: center;
+}
+.detail_text{
+  color:#000000;
+  font-size: 30rpx;
+}
+
+.detail_text_name{
+  
+  display: flex;
   color:#707070;
-  font-size: 35rpx;
+  font-size: 25rpx;
 }

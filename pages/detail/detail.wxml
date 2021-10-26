@@ -5,14 +5,42 @@
       <image class="detail_avator" bindtap="lookimage" data-state="{{item}}" mode="scaleToFill" src="{{item}}"></image>
     </swiper-item>
   </swiper>
-<view class="detail_line"/>
+  <view class="detail_line" />
+
   <text class="detail_name">大名：{{catinfo.name}}</text>
-  <text class="detail_text">年龄：{{catinfo.age}}</text>
-  <text class="detail_text">特征：{{catinfo.feature}}</text>
-  <text class="detail_text">关系：{{catinfo.relation}}</text>
-  <text class="detail_text">出没点：{{catinfo.location}}</text>
-  <text class="detail_text">绝育情况:{{catinfo.sterilization}}</text>
-  <text class="detail_text">亲人吗：{{catinfo.meek}}</text>
-  <text class="detail_text">健康状况：{{catinfo.health}}</text>
-  <text class="detail_text">简介：{{catinfo.description}}</text>
+  <view class="detail_text_pane">
+    <text class="detail_text_name">年龄:</text>
+    <text class="detail_text">{{catinfo.age}}</text>
+  </view>
+  <view class="detail_text_pane">
+    <text class="detail_text_name">特征:</text>
+    <text class="detail_text">{{catinfo.feature}}</text>
+  </view>
+  <view class="detail_text_pane">
+    <text class="detail_text_name">关系:</text>
+    <text class="detail_text">{{catinfo.relation}}</text>
+  </view>
+  <view class="detail_text_pane">
+    <text class="detail_text_name">出没点:</text>
+    <text class="detail_text">{{catinfo.location}}</text>
+  </view>
+  <view class="detail_text_pane">
+    <text class="detail_text_name">绝育情况:</text>
+    <text class="detail_text">{{catinfo.sterilization}}</text>
+  </view>
+  <view class="detail_text_pane">
+    <text class="detail_text_name">亲人吗:</text>
+    <text class="detail_text">{{catinfo.meek}}</text>
+  </view>
+  <view class="detail_text_pane">
+    <text class="detail_text_name">健康状况：</text>
+    <text class="detail_text">{{catinfo.health}}</text>
+  </view>
+  <view class="detail_line" />
+  <view class="detail_text_pane">
+    <text class="detail_text_name">简介：</text>
+  </view>
+  <view class="detail_text_pane">
+    <text class="detail_text">{{catinfo.description}}</text>
+  </view>
 </view>

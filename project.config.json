@@ -40,7 +40,6 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.8.1",
-  "appid": "wx697bdaf2a38f9fb8",
   "projectname": "%E7%8C%AB%E5%8D%8F",
   "debugOptions": {
     "hidedInDevtools": []
@@ -48,6 +47,7 @@
   "isGameTourist": false,
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
+  "appid": "wx697bdaf2a38f9fb8",
   "condition": {
     "search": {
       "list": []

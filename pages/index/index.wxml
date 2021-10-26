@@ -20,6 +20,10 @@
           <view class="catback_des">
             <text class="catback_name">{{item.name}}</text>
             <text class="catback_feature">{{item.feature}}</text>
+            <view class="catback_inner">
+              <image class="catback_icon" src="../../pages/images/loc.png"></image>
+              <text class="catback_feature">　{{item.location}}</text>
+            </view>
           </view>
     </view>
   </block>
@@ -33,6 +37,10 @@
           <view class="catback_des">
             <text class="catback_name">{{item.name}}</text>
             <text class="catback_feature">{{item.feature}}</text>
+            <view class="catback_inner">
+              <image class="catback_icon" src="../../pages/images/loc.png"></image>
+              <text class="catback_feature">　{{item.location}}</text>
+            </view>
           </view>
     </view>
   </block>
@@ -45,6 +53,10 @@
           <view class="catback_des">
             <text class="catback_name">{{item.name}}</text>
             <text class="catback_feature">{{item.feature}}</text>
+            <view class="catback_inner">
+              <image class="catback_icon" src="../../pages/images/loc.png"></image>
+              <text class="catback_feature">　{{item.location}}</text>
+            </view>
           </view>
     </view>
   </block>
@@ -58,6 +70,10 @@
           <view class="catback_des">
             <text class="catback_name">{{item.name}}</text>
             <text class="catback_feature">{{item.feature}}</text>
+            <view class="catback_inner">
+              <image class="catback_icon" src="../../pages/images/loc.png"></image>
+              <text class="catback_feature">　{{item.location}}</text>
+            </view>
           </view>
     </view>
   </block>
