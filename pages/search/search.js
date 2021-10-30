@@ -1,12 +1,13 @@
-// pages/detail/detail.js
+// pages/search/search.js
 const app = getApp()
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    catinfo:null
+    catdata:[]
   },
 
   /**
@@ -14,22 +15,16 @@ Page({
    */
   onLoad: function (options) {
     var name = options.name
-    //获取猫咪信息
-    this.getCatInfo(name);
+    this.getCatData(name)
   },
 
-  lookimage:function(e){
-    var that = this
-    wx.previewImage({
-      current: e.currentTarget.dataset.state,     //当前图片地址
-      urls: that.data.catinfo.image,                 //所有要预览的图片的地址集合 数组形式
-      success: function (res) { },
-      fail: function (res) { },
-      complete: function (res) { },
+  choosecat: function (e) {
+    var name = e.currentTarget.dataset.key
+    wx.navigateTo({
+      url: '/pages/detail/detail?name='+name
     })
   },
-
-  getCatInfo: function (e) {
+  getCatData:function(e){
     if (app.globalData.open_id == null) {
       return;
     }
@@ -44,7 +39,7 @@ Page({
       url: 'https://site.maple.today/SchoolCat/SchoolCat',
       method: "POST",
       data: {
-        requestCode: "003",
+        requestCode: "005",
         open_id: app.globalData.open_id,
         name:e,
       },
@@ -53,13 +48,13 @@ Page({
       },
       success: function (res) {
         console.log(res.data)
-        if (res.data.result == 0) {
+        if (res.data.length == 0) {
           wx.showToast({
-            title: '查无此猫猫～',
+            title: '暂无数据～',
           })
         } else {
           that.setData({
-            catinfo:res.data
+            catdata:res.data
           })
         }
       },
@@ -105,7 +100,7 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-    wx.stopPullDownRefresh({
+    thiswx.stopPullDownRefresh({
       success: (res) => {},
     })
   },

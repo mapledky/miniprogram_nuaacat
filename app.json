@@ -4,7 +4,8 @@
     "pages/about/about",
     "pages/logs/logs",
     "pages/science/science",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/search/search"
   ],
   "window": {
     "backgroundTextStyle": "light",

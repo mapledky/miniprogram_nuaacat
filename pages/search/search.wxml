@@ -1,0 +1,17 @@
+<!--pages/search/search.wxml-->
+<view class="mainback">
+
+<block wx:for="{{catdata}}" wx:for-item="item" wx:for-index="key">
+    <view bindtap="choosecat" data-key="{{item.name}}" class="catback">
+          <image lazy-load="true" src="{{item.image[0]}}" mode="scaleToFill" class="cathead" />
+          <view class="catback_des">
+            <text class="catback_name">{{item.name}}</text>
+            <text class="catback_feature">{{item.feature}}</text>
+            <view class="catback_inner">
+              <image class="catback_icon" src="../../pages/images/loc.png"></image>
+              <text class="catback_feature">　{{item.location}}</text>
+            </view>
+          </view>
+    </view>
+  </block>
+</view>

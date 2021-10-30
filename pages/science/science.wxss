@@ -16,7 +16,7 @@ page{
   color: #888888;
 }
 .navbar .item.active{
-  color: #94070a;
+  color: #FFC0CB;
 }
 .navbar .item.active:after{
   content: "";
@@ -26,7 +26,7 @@ page{
   left: 20px;
   right: 20px;
   height: 4rpx;
-  background: #94070a;
+  background: #FFC0CB;
 }
 
 .detail_image {

@@ -2,7 +2,7 @@
 
 <image class='avator ' src="/pages/images/logo.jpg" mode='aspectFill'></image>
 <view class="search">
-  <input placeholder="请输入猫咪名称" bindconfirm="bindconfirmT" placeholder-class="placeholder" maxlength="127"/>
+  <input placeholder="请输入猫咪名称" bindconfirm="bindconfirmT" placeholder-class="placeholder" maxlength="15"/>
 </view>
 
 <text> \n\n\n </text>

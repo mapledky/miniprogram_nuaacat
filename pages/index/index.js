@@ -356,7 +356,7 @@ Page({
   bindconfirmT: function (e) {
     if (e.detail.value) {
       wx.navigateTo({
-        url: '/pages/detail/detail?name='+e.detail.value,
+        url: '/pages/search/search?name='+e.detail.value,
       })
     }
   },
